@@ -1,0 +1,8 @@
+.page {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Inter', Arial, sans-serif;
+  color: white;
+  background-color: #2A2C2F;
+  padding: 16px 0 24px 0;
+}

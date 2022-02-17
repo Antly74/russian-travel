@@ -1,0 +1,19 @@
+.header {
+  --margin-side: 48px;
+  display: grid;
+  grid-template-columns: 1fr repeat(2, min-content);
+  column-gap: 18px;
+  width: calc(100% - var(--margin-side)*2);
+  margin: 12px var(--margin-side) 0 var(--margin-side);
+  max-width: 1400px;
+}
+@media (max-width: 1023px) {
+  .header {
+    --margin-side: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    --margin-side: 16px;
+  }
+}

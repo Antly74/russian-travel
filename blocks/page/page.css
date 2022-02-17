@@ -5,4 +5,8 @@
   color: white;
   background-color: #2A2C2F;
   padding: 16px 0 24px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,0 +1,18 @@
+.place__paragrahp {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.63;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 26px 0;
+}
+.place__paragrahp:last-child {
+  margin: 0;
+}
+@media (max-width: 1023px) {
+  .place__paragrahp {
+    font-size: 16px;
+    margin: 0 0 25px 0;
+  }
+}

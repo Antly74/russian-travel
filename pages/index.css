@@ -13,6 +13,21 @@
 /* Контент*/
 @import url(../blocks/content/content.css);
 
+/* Шапка */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+/* Интро */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list-item-num/intro__list-item-num.css);
+
 /* Галерея фотографий */
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
@@ -29,12 +44,19 @@
 @import url(../blocks/place/__paragrahp/place__paragrahp.css);
 
 
-
-
-
-
-
-
-
-
-
+/*.cover {
+  max-width: 1184px;
+  height: calc(1184px/1.6);
+}
+.cover__link::before {
+  background: url(../images/cover-trains.jpg)  center / cover;
+}
+.cover__link {
+  display: block;
+  width: 100%;
+  height: calc(100%/1.6);
+}
+.cover__title {
+}
+.cover__subtitle {
+}*/

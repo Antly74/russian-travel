@@ -1,0 +1,8 @@
+.footer__link-container {
+  margin-right: 18px;
+}
+@media (max-width: 767px) {
+  .footer__link-container {
+    margin: 0 0 32px;
+  }
+}

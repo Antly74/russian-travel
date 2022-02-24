@@ -1,16 +1,21 @@
-.intro {
+.footer {
+  display: flex;
+  justify-content: space-between;
+
   --margin-side: 48px;
   width: calc(100% - var(--margin-side)*2);
-  max-width: 984px;
   margin: 0 var(--margin-side);
+  max-width: 1184px;
 }
 @media (max-width: 1023px) {
-  .intro {
+  .footer {
     --margin-side: 24px;
   }
 }
 @media (max-width: 767px) {
-  .intro {
+  .footer {
     --margin-side: 16px;
+    margin-top: 0;
+    flex-direction: column;
   }
 }

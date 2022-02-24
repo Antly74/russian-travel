@@ -1,7 +1,6 @@
 .footer {
   display: flex;
   justify-content: space-between;
-
   --margin-side: 48px;
   width: calc(100% - var(--margin-side)*2);
   margin: 0 var(--margin-side);
